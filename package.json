@@ -1,0 +1,25 @@
+{
+  "name": "homedrop",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@aws-sdk/client-ses": "^3.398.0",
+    "@aws-sdk/client-sesv2": "^3.398.0",
+    "aws-sdk": "^2.1444.0",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.1",
+    "mongoose": "^7.4.4",
+    "nodemailer": "^6.9.4",
+    "pdfkit": "^0.13.0",
+    "serverless": "^3.34.0",
+    "serverless-http": "^3.2.0"
+  }
+}
